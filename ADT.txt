@@ -1,0 +1,10 @@
+ADT - Abstract Data Type - theoretical computer science concept to specify what kind of data a data structure can hold and what operations are allowed on that data
+It is an idea how the data should be organized, so it is language agnostic
+DS - Data Structures - implementations of ADT, that organize and retrieve data stored in memory
+ONE ADT operation = ONE function in DS
+
+TO SUM: ADT is just the idea how to organize the structure, while DS is the actual implementation (usually there are more than one possible implementations)
+
+ADT has the following advantages:
+- Abstraction - we don't need to understand the exact implementation and how the code works to implement the DS, as long as it follows the ideas of the ADT and implements the required methods and operations - we are just using the interfaces provided by the DS
+- Consistency - the implemmentation of the DS can change as long as the interfaces to interact with it stay the same - the user doesn't have to alter code

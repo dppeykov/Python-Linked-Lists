@@ -1,0 +1,30 @@
+Linked List - mutable, ordered collection of items that do not have to be of the same type, but different than built-in lists
+
+#####################################################################################################################################################
+NODES:
+#####################################################################################################################################################
+
+Linked lists do NOT store the data in contiguous space - instead they are storing it in chunks (Nodes) which are pointing to the next Node
+The pointers describe the order of which the nodes should be accessed - BECAUSE THE DATA NODES ARE NOT STORED CONTIGUOSLY IN THE RAM (MEMORY)
+POINTERS are pointing to a slot in memory AND NOT to the data in the slot itself
+
+SINGLY LINKED LIST (only pointers in 1 direction): Node (DATA)(AKA HEAD) --NEXT POINTER--> Node (Data) --NEXT POINTER--> Node (Data) --> NONE
+DOUBLY LINKED LIST (both directions): <--PREVIOUS POINTER-- Node (DATA) (AKA HEAD) <--PREVIOUS POINTER-- 
+                                      --NEXT POINTER--> Node (Data) <--PREVIOUS POINTER-- --NEXT POINTER--> Node (Data) --NEXT POINTER--> NONE
+
+EMPTY LINKED LIST: HEAD --> None
+
+Linked lists are linear data structures - because of the pointers between the nodes
+
+#####################################################################################################################################################
+OPERATIONS:
+#####################################################################################################################################################
+
+Add/Remove nodes - head or tail, before/after a given key
+Is EMPTY
+How many nodes it has
+Searching for a node - finding an index
+
+WHEN TO USE LINKED LISTS? -->> insert items in between other items, collection size is unknown, no need for random access, not concern about memory
+
+Linked lists are a recursive data structure
