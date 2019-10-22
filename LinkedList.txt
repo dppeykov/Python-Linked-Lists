@@ -1,3 +1,5 @@
+PART OF A LINKEIN LEARNING COURSE
+
 Linked List - mutable, ordered collection of items that do not have to be of the same type, but different than built-in lists
 
 #####################################################################################################################################################
