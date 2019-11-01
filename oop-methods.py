@@ -1,4 +1,4 @@
-# REPL: https://repl.it/@DamyanPeykov/OOP
+# REPL: https://repl.it/@DamyanPeykov/OOP-methods
 
 class Character:
 # Class Object Attribute - this is not dynamic - it is static
@@ -24,6 +24,7 @@ class Character:
 
     # Class Methods - class methods know about their class. They can’t access specific instance data, but they can call other static methods.
     # Class methods don’t need self as an argument, but they do need a parameter called cls. This stands for class, and like self, gets automatically passed in by Python.
+    #  Class methods can manipulate the class itself, which is useful when you’re working on larger, more complex projects.
     @classmethod
     def example_function_2(cls):
         """ This method is a class method! """
@@ -52,3 +53,9 @@ print(singer1.example_function_2()) # I'm a class method! + Hello! + None
 print(Character.example_function_2()) # I'm a class method! + Hello! + None
 
 # It’s possible to combine multiple decorators, write your own, and apply them to classes
+
+#In summary:
+
+    # Instance Methods: The most common method type. Able to access data and properties unique to each instance.
+    # Static Methods: Cannot access anything else in the class. Totally self-contained code.
+    # Class Methods: Can access limited methods in the class. Can modify class specific details.
